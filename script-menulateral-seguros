@@ -1,1 +1,4 @@
 
+for (const itr of document.querySelector("body > div.body-container2 > div > div.container-fluid.mt-2rem.d-none.d-lg-block > div > div.row > div.col-lg.mr-1rem > div > div.card-body.py-0").children) {
+    itr.children[0].id = "MLMS"
+}
